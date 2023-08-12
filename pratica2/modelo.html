@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>verificador de idade</h1>
+    </header>
+
+    <section>
+
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="ano" id="iano">
+            </p>
+
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="iM" checked>
+                <label for="iM">Masculino</label> 
+
+                <input type="radio" name="radsex" id="iF">
+                <label for="iF">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>    
+        </div>
+
+
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Powered By Bárbara Portes</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
